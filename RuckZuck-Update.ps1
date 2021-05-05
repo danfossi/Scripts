@@ -163,7 +163,7 @@ $Script = {
 		}
 			#Download RuckZuck
 			try{
-				Invoke-WebRequest -Uri "https://github.com/rzander/ruckzuck/releases/download/1.7.1.3/RuckZuck.provider.for.OneGet_x64.msi" -outfile "C:\temp\RuckZuck.msi"
+				Invoke-WebRequest -Uri "https://github.com/rzander/ruckzuck/releases/download/1.7.2.1/RuckZuck.provider.for.OneGet_x64.msi" -outfile "C:\temp\RuckZuck.msi"
 			}
 			catch {
 				Write-Error -Message  " $_" -ErrorAction Stop
